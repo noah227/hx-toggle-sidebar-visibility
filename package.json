@@ -1,0 +1,37 @@
+{
+	"id": "hx-toggle-sidebar-visibility",
+	"name": "hx-toggle-sidebar-visibility",
+	"description": "your extension description",
+	"displayName": "your extension display name",
+	"version": "3.8.5",
+	"publisher": "Noah Young",
+	"engines": {
+		"HBuilderX": "^2.7.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension",
+	"activationEvents": [
+		"*"
+	],
+	"contributes": { 
+		"icons": {
+			"description": "bar图标",
+			"barIcon": {
+				"default": {
+					"iconPath": "./icons/bar.svg",
+					"fontSize": "14px"
+				}
+			},
+			"message": {
+				"default": {
+					"iconPath": "./icons/message.svg"
+				}
+			}
+		}
+	},
+	"extensionDependencies": [
+		"plugin-manager"
+	]
+}
